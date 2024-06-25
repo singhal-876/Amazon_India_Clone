@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    font-family: Calibri;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 170px;
+}
+
+.logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-deliver{
+    font-size: 0.80rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.nav-location{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bolder;
+}
+
+.nav-icon{
+    display: flex;
+}
+
+.nav-searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.nav-all{
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.nav-search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+} 
+
+.nav-sicon{
+    display: flex;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+
+.nav-lang{
+    display: flex;
+    height: 35px;
+    width: 60px;
+    align-items: center;
+}
+
+.nav-india-logo{
+    background-image: url("images/India_logo.png");
+    background-size: cover;
+    height: 16px;
+    width: 24px;
+}
+
+.nav-lang-choose{
+    display: flex;
+    height: 16px;
+    width: 20px;
+    align-items: center;
+    margin-left: 3px;
+    font-weight: bolder;
+}
+
+.nav-sign-in{
+    height: 40px;
+    width: 130px;
+}
+
+.nav-sign-in-option{
+    color: #D6D6D6;
+    font-size: 1rem;
+    height: 14px;
+    width: 100px;
+}
+
+.nav-acc{
+    display: flex;
+    height: 15px;
+    width: 130px;
+}
+
+.nav-acc-li{
+    margin-right: 3px;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.nav-ro{
+    height: 50px;
+    width: 75px;
+}
+
+.nav-re{
+    color: #D6D6D6;
+    display: flex;
+    font-size: 1rem;
+}
+
+.nav-or{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.nav-cart{
+    display: flex;
+    font-size: 2rem;
+    align-items: baseline;
+}
+
+.nav-cart-txt{
+    font-weight: bolder;
+    font-size: 1rem;
+}
