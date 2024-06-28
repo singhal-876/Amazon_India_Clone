@@ -169,3 +169,42 @@
     font-weight: bolder;
     font-size: 1rem;
 }
+
+.panel{
+    height: 40px;
+    font-size: 1rem;
+    color: white;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.panel-all i{
+    margin-right: 3px;
+}
+
+.panel-fresh-prime{
+    display: flex;
+    align-items: center;
+}
+
+.panel-fresh-prime i{
+    font-size: 9px;
+    color: #cccccc;
+    margin-left: 3px;
+}
+
+.panel-content{
+    display: flex;
+}
+
+.panel-content span{
+    margin-right: 20px;
+}
