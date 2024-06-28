@@ -107,6 +107,11 @@
     font-weight: bolder;
 }
 
+.nav-lang i{
+    font-size: 9px;
+    color: #cccccc;
+}
+
 .nav-sign-in{
     height: 40px;
     width: 130px;
@@ -129,6 +134,13 @@
     margin-right: 3px;
     font-weight: bolder;
     font-size: 1.05rem;
+}
+
+.nav-acc-i{
+    display: flex;
+    align-items: flex-end;
+    font-size: 9px;
+    color: #cccccc;
 }
 
 .nav-ro{
