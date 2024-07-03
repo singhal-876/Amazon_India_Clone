@@ -214,15 +214,16 @@
     background-size: cover;
     mix-blend-mode: overlay;
     height: 800px;
+    width: auto;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
 }
 
-.box1{
+.small-box{
     height: 420px;
     width: 350px;
-    border: 1px solid black;
+    border: x solid black;
     background-color: #fff;
     padding: 20px 0px 15px;
 }
@@ -244,4 +245,36 @@
 
 .box-link{
     padding: 30px 0px 0px 10px;
+}
+
+.seperator{
+    background-color: #cccccc;
+    height: 20px;
+    width: 100%;
+}
+
+.rem-content{
+    background-color: #cccccc;
+}
+
+.large-box{
+    height: 265px;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+}
+
+.hf-img{
+    height: 200px;
+    width: 182px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
+}
+
+.tw-img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
+
 }
