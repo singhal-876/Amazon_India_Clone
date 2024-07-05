@@ -212,7 +212,6 @@
 .hero-img{
     background-image: url("images/Smartphone_hero_image.jpg");
     background-size: cover;
-    mix-blend-mode: overlay;
     height: 800px;
     width: auto;
     display: flex;
@@ -236,6 +235,8 @@
 
 .box-img{
     padding: 10px 10px 0px 10px;
+    height: 125px;
+    width: 155px;
 }
 
 .box-content span{
@@ -251,10 +252,6 @@
     background-color: #cccccc;
     height: 20px;
     width: 100%;
-}
-
-.rem-content{
-    background-color: #cccccc;
 }
 
 .large-box{
@@ -276,5 +273,66 @@
     width: 250px;
     background-size: cover;
     padding: 10px 10px 0px 0px;
+}
 
+.rem-content{
+    background-color: #cccccc;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.hk-img{
+    height: 200px;
+    width: 225px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
+}
+
+.uk-img{
+    height: 200px;
+    width: 225px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
+}
+
+.promo-div{
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.promo img{
+    background-image: url("images/dil_logical.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 970px;
+}
+
+.promo span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.promo i{
+    margin-left: 3px;
+}
+
+.fc-img{
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
+}
+
+.ca-img{
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    padding: 10px 10px 0px 0px;
 }
