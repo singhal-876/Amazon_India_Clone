@@ -222,7 +222,6 @@
 .small-box{
     height: 420px;
     width: 350px;
-    border: x solid black;
     background-color: #fff;
     padding: 20px 0px 15px;
 }
@@ -335,4 +334,197 @@
     width: 150px;
     background-size: cover;
     padding: 10px 10px 0px 0px;
+}
+
+.foot-sign-in{
+    height: 200px;
+    width: 100%;
+}
+
+.foot-sign-in-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.foot-sign-in-option span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in{
+    width: 230px;
+    height: 30px;
+    background-color: #ffc226;
+    border-radius: 5px;
+    color: black;
+    margin: 5px 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+    height: 20px;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-top{
+    height: 440px;
+    width: 100%;
+    background-color: #232f3e;
+    color: #fff;
+}
+
+.foot-content{
+    height: 300px;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-content-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-content-txt{
+    width: 100%;
+    height: 300px;
+    padding: 0px 10px;
+}
+
+.foot-content-txt a{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: -10px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.foot-mid-div{
+    height: 250px;
+    width: 100px;
+    padding: 0px 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-top-logo-lang{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-top-logo{
+    height: 50px;
+    width: 128px;
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+}
+
+.foot-top-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-outer-box{
+    border: 1px solid #fff;
+}
+
+.foot-top-lang-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-top-span{
+    margin: 10px 7px;
+}
+
+.foot-top-icon{
+    font-size: 0.6rem;
+    color: gray;
+    margin: 10px 7px 10px 25px;
+}
+
+.foot-india-logo{
+    height: 16px;
+    width: 24px;
+    background-size: cover;
+}
+
+.foot-bottom{
+    background-color: #131a22;
+}
+
+.foot-content-bottom{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-content-links{
+    width: 100%;
+    height: 50px;
+    padding: 0px 10px;
+}
+
+.foot-content-links a{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.foot-link-head{
+    font-weight: lighter;
+}
+
+#foot-link-foot{
+    font-weight: lighter;
+    color: gray;
+}
+
+.foot-content-margin-box{
+    height: 40px;
+    width: 200px;
+}
+
+.foot-copyright{
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-copyright-above a{
+    color: #fff;
+    font-weight: 500;
+    margin-right: 15px;
+    text-decoration: none;
 }
